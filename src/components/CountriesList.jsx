@@ -3,15 +3,17 @@ import styles from "./CountryList.module.css";
 import CountryItem from "./CountryItem";
 import Message from "./Message";
 import { useState } from "react";
+import { useCities } from "../contexts/CitiesContext";
 // import { useCities } from "../contexts/CitiesContext";
 
-function CountriesList({cities, isLoading}) {
+function CountriesList() {
 
 //   const countries = cities.reduce((arr,city)=>{
 //     if(!arr.map(el=>el.city).includes(city.country))
 //        return [...arr, {country: city.country, emoji: city.emoji}] 
 //     else return arr
 //     },[])
+    const {cities, isLoading} = useCities()
 
     const countries = cities
     .map(city => city.country) // extrage toate țările

@@ -3,9 +3,10 @@ import styles from "./CityList.module.css";
 import CityItem from "./CityItem";
 import Message from "./Message";
 import { useState } from "react";
+import { useCities } from "../contexts/CitiesContext";
 // import { useCities } from "../contexts/CitiesContext";
 
-function CityList({cities, isLoading}) {
+function CityList() {
   // const { cities, isLoading } = useState({
   //   "cityName": "Lisbon",
   //   "country": "Portugal",
@@ -18,6 +19,7 @@ function CityList({cities, isLoading}) {
   //   },
   //   "id": 73930385
   // });
+  const {cities, isLoading} = useCities()
 
   if (isLoading) return <Spinner />;
 
