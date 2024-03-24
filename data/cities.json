@@ -10,19 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
+      "id": "73930385"
     },
     {
       "cityName": "Berlin",
@@ -34,19 +22,103 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
     },
     {
-      "cityName": "Nijar",
+      "id": "82d8",
+      "cityName": "Balearic Sea",
       "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-04-03T07:47:59.202Z",
-      "notes": "",
+      "date": "2024-03-23T08:50:52.002Z",
+      "emoji": "ES",
+      "notes": "dd",
       "position": {
-        "lat": "36.967508314568164",
-        "lng": "-2.13128394200588"
-      },
-      "id": 98443198
+        "lat": "40.60765068362375",
+        "lng": "0.5935633661931439"
+      }
+    },
+    {
+      "id": "843f",
+      "cityName": "Florence",
+      "country": "Italy",
+      "date": "2024-03-23T08:51:21.092Z",
+      "emoji": "IT",
+      "notes": "bbb",
+      "position": {
+        "lat": "43.730323049241555",
+        "lng": "11.240232598688644"
+      }
+    },
+    {
+      "id": "36e3",
+      "cityName": "Rome",
+      "country": "Italy",
+      "date": "2024-03-23T08:51:29.394Z",
+      "emoji": "IT",
+      "notes": "hhh",
+      "position": {
+        "lat": "41.827112815056445",
+        "lng": "12.48166179321782"
+      }
+    },
+    {
+      "id": "cc2f",
+      "cityName": "Bucharest",
+      "country": "Romania",
+      "date": "2024-03-23T08:59:21.443Z",
+      "emoji": "RO",
+      "notes": "qqq",
+      "position": {
+        "lat": "44.44848779513975",
+        "lng": "26.093701536455004"
+      }
+    },
+    {
+      "id": "85e0",
+      "cityName": "Alcala de Xivert",
+      "country": "Spain",
+      "date": "2024-03-23T10:29:12.425Z",
+      "emoji": "ES",
+      "notes": "bfhhthth",
+      "position": {
+        "lat": "40.31710495688319",
+        "lng": "0.30090603134459665"
+      }
+    },
+    {
+      "id": "ebed",
+      "cityName": "Egling",
+      "country": "Germany",
+      "date": "2024-03-23T10:29:23.511Z",
+      "emoji": "DE",
+      "notes": "cccc",
+      "position": {
+        "lat": "47.959735095899845",
+        "lng": "11.56006713626558"
+      }
+    },
+    {
+      "id": "f763",
+      "cityName": "Castello de la Plana",
+      "country": "Spain",
+      "date": "2024-03-24T07:22:36.252Z",
+      "emoji": "ES",
+      "notes": "p",
+      "position": {
+        "lat": "39.98839902759674",
+        "lng": "-0.03643616210712742"
+      }
+    },
+    {
+      "id": "ae7f",
+      "cityName": "Albacete",
+      "country": "Spain",
+      "date": "2024-03-24T07:22:43.294Z",
+      "emoji": "ES",
+      "notes": "t",
+      "position": {
+        "lat": "38.98012118844895",
+        "lng": "-1.8465428383432194"
+      }
     }
   ]
 }

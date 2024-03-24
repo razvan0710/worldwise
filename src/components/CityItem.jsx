@@ -8,10 +8,11 @@ const formatDate = (date) =>
     day: "numeric",
     month: "long",
     year: "numeric",
+    weekday: "long",
   }).format(new Date(date));
 
 function CityItem({ city }) {
-  const { currentCity } = useCities();
+  const { currentCity, deleteCity } = useCities();
   const { cityName, emoji, date, id, position } = city;
 
   function handleClick(e) {
