@@ -29,7 +29,6 @@ function reducer(state, action){
     }
 }
 
-
 function AuthProvider({children}){
     const [{user, isAuthenticated}, dispatch] = useReducer(reducer, initialState)
     function login(email, password) {
